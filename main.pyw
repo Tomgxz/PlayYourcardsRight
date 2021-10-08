@@ -224,6 +224,7 @@ class Game():
         self.bgcolor=self.colors["light"]
 
         self.root.title("Play Your Cards Right")
+        self.root.iconbitmap('icon.ico')
         self.w=self.root.winfo_screenwidth()
         self.h=self.root.winfo_screenheight()
         self.root.geometry(f"{self.w}x{self.h}")
